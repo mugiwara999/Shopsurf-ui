@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'CoffeeHealing';
+  src: url('./src/CoffeeHealing-1GrKe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

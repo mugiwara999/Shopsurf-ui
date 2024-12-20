@@ -3,4 +3,11 @@ export default {
     tailwindcss: {},
     autoprefixer: {},
   },
-}
+  theme: {
+    extend: {
+      fontFamily: {
+        custom: ['CoffeeHealing', 'sans-serif'],
+      },
+    },
+  },
+};
