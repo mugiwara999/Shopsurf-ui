@@ -1,7 +1,7 @@
 export function Card({ title, amount, orderCount }) {
 
   return (
-    <div className="shadow-md p-3 flex flex-col gap-2 rounded-lg justify-evenly" >
+    <div className="shadow-md p-3 flex mb-8 flex-col gap-2 rounded-lg justify-evenly" >
 
       <div className=" font-medium text-gray-900 text-md flex items-center gap-1 ">
         {title} <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -9,7 +9,7 @@ export function Card({ title, amount, orderCount }) {
         </svg>
 
       </div>
-      <div className="flex justify-between gap-3 items-center ">
+      <div className="flex justify-between gap-3 items-center flex-wrap ">
         <div className="text-3xl font-bold min-w-max">
           $ {amount}
         </div>
