@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'CoffeeHealing';
-  src: url('./src/CoffeeHealing-1GrKe.ttf') format('truetype');
+  src: url('/CoffeeHealing-1GrKe.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
